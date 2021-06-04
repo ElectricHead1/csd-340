@@ -2,6 +2,6 @@
 This repository is part of my Web Development with HTML and CSS course at Bellevue University as part of my CSD degree.
 
 
-
-<h1>CSD 340 Web Development with HTML and CSS<h1>
+<h1>CSD 340 Web Development with HTML and CSS</h1>
   
+  <h2>Contributors</h2>
