@@ -1,0 +1,110 @@
+body{
+    background-color:darkcyan;
+    font-family: 'Paytone One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR styling starts */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li{
+    display: inline;
+    list-style: none;
+    
+}
+ 
+li a{
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: darkcyan;
+    float: right;
+    text-align: center;
+    padding: 15px 20px ;
+    margin-top: 20px;
+
+}
+
+li a:hover{
+    background-color: rgb(11, 201, 248);
+}
+
+#profile-pic{
+    float: left;
+    border-radius: 100px;
+}
+
+/* NAVBAR styling Ends */
+
+
+/* Main Page styling starts  */
+
+.main-div{
+    border: 5px dotted rgb(11, 201, 248);
+}
+
+#main-pic{
+    border: 1px solid;
+    width: 100%;
+   
+}
+
+.intro-text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 20px 20px;
+    
+}
+
+#intro{
+    text-align: center;
+}
+/* Main Page styling ends  */
+
+
+
+/* Habit page styling */
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+  }
+
+  .img-div {
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #habit-pic{
+    width: 300px;
+    height: 350px;
+  }
+
+  figure{
+    text-align: center;
+  }
+
+  figcaption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .75em;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+.img-div {
+  border: 1px solid rgb(11, 201, 248);
+  border-radius: 15px;
+  padding: 5px;
+}
