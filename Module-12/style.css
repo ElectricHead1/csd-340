@@ -1,0 +1,210 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2390%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient2391)'%3e%3c/rect%3e%3cpath d='M23.981%2c-3.081C37.234%2c-3.552%2c50.643%2c-6.381%2c58.306%2c-17.204C67.337%2c-29.959%2c72.058%2c-46.74%2c64.626%2c-60.488C56.914%2c-74.755%2c40.171%2c-81.663%2c23.981%2c-80.703C9.284%2c-79.831%2c-1.634%2c-68.81%2c-9.091%2c-56.115C-16.674%2c-43.205%2c-22.767%2c-27.309%2c-14.845%2c-14.605C-7.189%2c-2.328%2c9.521%2c-2.567%2c23.981%2c-3.081' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M623.507%2c301.642C662.173%2c302.717%2c689.848%2c269.086%2c709.38%2c235.699C729.17%2c201.872%2c743.818%2c161.879%2c725.559%2c127.201C706.295%2c90.615%2c664.854%2c72.402%2c623.507%2c72.612C582.542%2c72.82%2c541.315%2c91.468%2c523.233%2c128.227C506.628%2c161.985%2c526.694%2c198.575%2c545.526%2c231.143C564.326%2c263.656%2c585.965%2c300.598%2c623.507%2c301.642' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M479.52689442138126-63.68443083348741L436.4940482159306 32.96892422971921 602.9905039134659 49.19151600629185z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1253.5165057541135 325.02715348474845L1334.8489214306567 319.3398369488234 1285.6517387884976 200.1848717019713z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M120.522%2c447.88C164.77%2c451.601%2c209.513%2c432.313%2c232.752%2c394.476C257.01%2c354.979%2c257.572%2c304.043%2c233.003%2c264.739C209.708%2c227.473%2c164.464%2c214.231%2c120.522%2c214.938C78.015%2c215.622%2c33.557%2c230.441%2c14.144%2c268.263C-4.137%2c303.88%2c16.426%2c343.555%2c36.827%2c378.002C56.677%2c411.518%2c81.706%2c444.616%2c120.522%2c447.88' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M763.6945105346211-75.99009258482577L760.9261243425433 82.61064613843989 922.2952492578868-73.2217063927479z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M274.022%2c351.555C304.079%2c349.774%2c323.73%2c322.772%2c337.309%2c295.898C349.322%2c272.125%2c351.976%2c245.073%2c339.797%2c221.384C326.439%2c195.402%2c303.229%2c172.123%2c274.022%2c172.798C245.585%2c173.455%2c227.79%2c199.824%2c213.308%2c224.306C198.439%2c249.442%2c183.683%2c277.898%2c196.259%2c304.256C210.262%2c333.605%2c241.561%2c353.478%2c274.022%2c351.555' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M559.4736633084074 143.87496697757004L401.3061893214549 214.11512267988866 522.1268397110839 305.16001311704736z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M843.3789953963994 326.8998551402288L919.9614414295245 325.5631035723589 879.665091061157 211.35781030660632z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M604.32 141.39 a136.24 136.24 0 1 0 272.48 0 a136.24 136.24 0 1 0 -272.48 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1330.6718165730326 411.4148885051766L1427.7739052200889 425.0616970949795 1344.3186251628356 314.31279985812046z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2390'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='84.72%25' y1='-39.29%25' x2='15.28%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2391'%3e%3cstop stop-color='rgba(151%2c 25%2c 10%2c 1)' offset='0.36'%3e%3c/stop%3e%3cstop stop-color='rgba(14%2c 71%2c 51%2c 1)' offset='0.55'%3e%3c/stop%3e%3cstop stop-color='rgba(124%2c 52%2c 123%2c 1)' offset='0.97'%3e%3c/stop%3e%3cstop stop-color='rgba(10%2c 96%2c 151%2c 1)' offset='0.97'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");    
+}
+
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(11, 35, 46)
+  }
+  
+  /* Style the nav links */
+  .nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.profile-pic{
+  height: 400px;
+  border: 10px outset rebeccapurple;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+.profile-pic:hover {
+  box-shadow: 0 15px 16px 0 rgba(0, 0, 0, 0.993);
+}
+
+.Intro{
+    min-height: 1vh;
+    max-width: 60rem;
+    margin: auto;
+}
+
+.Intro h1 {
+    color: #fff;
+    font-family: 'VT323', monospace;
+    font-size: 4rem;
+    overflow: hidden; 
+    border-right: 5px solid; 
+    white-space: nowrap; 
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; 
+    animation: typing 2.5s steps(30, end), blink-caret 2s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 70% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    20% { border-color: rgb(126, 109, 109) }
+  }
+
+
+  .Intro h2{
+      font-family: 'VT323', monospace;
+      font-size: 3rem;
+      font-weight: 400px;
+      margin-bottom: 1rem;
+      
+      
+  }
+.hobbies-items{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3.5rem;
+}
+
+.card{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 90%;
+    text-align: center ;
+    color: #fff;
+    background-color: rgb(11, 35, 46);
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px){
+  .card {
+    width: 100%;
+  }
+}
+
+
+.card:hover {
+    box-shadow: 0 15px 16px 0 rgba(0, 0, 0, 0.993);
+}
+
+.hobbies {
+    min-height: 50vh;
+    max-width: 80rem;
+    margin: auto;
+}
+
+/* Experience styling  */
+
+.experience {
+    min-height: 250px;
+}
+
+.experience {
+  min-height: 50vh;
+  max-width: 80rem;
+  margin: auto;
+}
+
+.experience-items{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2.5rem;
+}
+
+.card{
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 90%;
+  text-align: center ;
+  color: #fff;
+  background-color: rgb(11, 35, 46);
+}
+
+
+/* Contact Form */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(110, 37, 37);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 1px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(11, 35, 46);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(33, 129, 167);
+  }
+  
+  .Contact {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 20px;
+    color: #fff;
+    max-width: 80rem;
+    margin: auto;
+  }
+
+  /* Footer Styling */
+
+  footer{
+    background-color:rgb(0, 44, 65);
+    text-align: center;
+    color: #fff;
+  }
+
+  
+.social-icon{
+  letter-spacing: 1rem;
+  font-size: 2rem;
+}
+
+.social-icon :hover{
+  color: aqua;
+}
+
+.copyright-text{
+  text-align: right;
+}
+
+.svg{
+  background-color: #fff;
+}
